@@ -1,0 +1,26 @@
+{
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "eslint.autoFixOnSave": true,
+  // Enable/disable default JavaScript formatter (For Prettier)
+  "javascript.format.enable": false,
+  "prettier.singleQuote": true,
+  // 点击保存时，根据 eslint 规则自定修复，同时集成 prettier 到 eslint 中
+  "emmet.triggerExpansionOnTab": true,
+  "editor.formatOnSave": true,
+  "prettier.semi": false,
+  "prettier.trailingComma": "all",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/*/**": true
+  },
+  // 指定哪些文件不参与搜索
+  "search.exclude": {
+    "**/node_modules": true,
+    "dist": true,
+    "yarn.lock": true
+  }
+}
